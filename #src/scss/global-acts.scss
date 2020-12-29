@@ -1,0 +1,17 @@
+.global-acts--list {
+	display: flex;
+	flex-direction: column;
+	.global-acts--item {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		min-height: 100px;
+		margin-bottom: 10px;
+		padding: 0 5px;
+		background-color: $BGC;
+		text-align: center;
+	}
+	.global-acts--link {
+		font-size: 14px;
+	}
+}
