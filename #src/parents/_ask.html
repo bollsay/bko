@@ -1,0 +1,46 @@
+<section class="ask">
+	<!-- Container -->
+	<div class='container'>
+		<div class="ask__inner">
+			<div class="global-headline">
+				<h4>
+					Задать вопрос
+				</h4>
+			</div>
+			<form action="/" method="post" class="form-ask">
+				<div class="form-item">
+					<label for="city">Выберите город</label>
+					<select name="city" id="city" class="ask__inner--city" required>
+						<option value="">Hello</option>
+					</select>
+				</div>
+				<div class="form-item">
+					<label for="name">Имя</label>
+					<div class="input-wrap">
+						<i class="fad fa-user"></i>
+						<input type="text" name="name" id="name" class="form-item--input" autocomplete="off" required>
+					</div>
+				</div>
+				<div class="form-item">
+					<label for="tel">Номер тельефона</label>
+					<div class="input-wrap">
+						<i class="fad fa-phone-square"></i>
+						<input type="tel" name="tel" id="tel" class="form-item--input" autocomplete="off" required>
+					</div>
+				</div>
+				<div class="form-item">
+					<label for="email">E-mail адрес</label>
+					<div class="input-wrap">
+						<i class="fad fa-envelope-open-text"></i>
+						<input type="email" name="name" id="email" class="form-item--input" autocomplete="off" required>
+					</div>
+				</div>
+				<div class="form-item">
+					<label for="ask">Ворос</label>
+					<textarea name="ask" id="ask" class="form-item--textarea" cols="30" rows="10" required></textarea>
+				</div>
+				<button type="submit" class="submit-btn">Отправить</button>
+			</form>
+		</div>
+	</div>
+</section>
